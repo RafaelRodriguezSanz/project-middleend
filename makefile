@@ -3,7 +3,7 @@ virtualize:
 unvirtualize:
 	deactivate && rd /s /q && pip uninstall -r requirements.txt -y
 build:
-	@echo python does not build >S
+	@echo python does not build
 run:
 	make -j2 start open
 
